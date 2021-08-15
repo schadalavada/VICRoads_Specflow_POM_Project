@@ -11,7 +11,6 @@ Scenario Outline: Verify Select permit type text is displayed on UVP 2 of 7 page
 	When I select permit duration as "<PermitDuration>"
 	When I click on next button on UVP 1 of 7 page
 	Then User should be navigated to UVP Step 2 of 7 Page and Select permit type text is displayed
-
+@source:Data.xlsx:UvpData
 Examples: 
 | VehicleType | Enter Address | Compare Address | PermitStartDate | PemitDuration |
-| test        | test1         | test2           | test3           | test4         |
